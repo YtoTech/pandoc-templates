@@ -400,7 +400,19 @@ $if(logo)$
 $endif$
 $endif$
 
+% TODO Headers and footers.
+% https://tex.stackexchange.com/questions/426191/fancyhdr-not-working-on-every-page
+% \usepackage{fancyhdr}
+% \usepackage{lastpage}
+% \pagestyle{fancy}
+% \fancyhf{}
+
+% \rhead{test}
+
+% \cfoot{\small\textit{Page \thepage\ sur \pageref{LastPage}}}
+
 \begin{document}
+
 $if(has-frontmatter)$
 \frontmatter
 $endif$
